@@ -12,7 +12,6 @@
     - [Tag Generation](#Tag-Generation)
     - [Image Similarity](#Image-Similarity)
   - [Documentations](#documentations)
-  - [License](#license)
 
 ## Introduction
 This is the Hivo Test Repository, which contains both the source code and the associated test files.
@@ -85,7 +84,4 @@ tags = processor.generate_tags(processed_image)
 ```
 
 ## Contact me
-If you have any questions, comments or suggestions, please do not hesitate to contact us at lavis@salesforce.com.
-
-## License
-[BSD 3-Clause License](LICENSE.txt)
+If you have any questions, comments or suggestions, please do not hesitate to contact us at haquangchi1996@gmail.com.
