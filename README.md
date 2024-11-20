@@ -50,6 +50,12 @@ git https://github.com/quangchi/AI-engineer-Hivo-test.git
 cd AI-engineer-Hivo-test
 pip install -r requirement_dev.txt
 ```
+## Note:
+System Information (my computer)
+- Operating System: Windows 10 Pro 64-bit (10.0, Build 19045) (19041.vb_release.191206-1406)
+- Processor: 12th Gen Intel(R) Core(TM) i5-12400F (12 CPUs), ~2.5GHz
+- Memory: 32768MB RAM
+- Card name: NVIDIA GeForce RTX 2060
 ## Resources
 - **pre-trained model**: see [Models](https://huggingface.co/quangchi/hivo-pretrained-model/tree/main) to download the model used in the exam.
 
