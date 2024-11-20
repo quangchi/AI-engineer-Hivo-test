@@ -30,12 +30,16 @@ This is the Hivo Test Repository, which contains both the source code and the as
 
 Key features of repo include:
 
+- **Preprocess Image**:  Preprocess the image data for further processing, Convert to RGB if the image is not in RGB mode, Resize to max dimension of 800px while maintaining aspect ratio
+  
 - **Face Detection**: Using Yolov8 to detect faces and landmark in the image and return their locations and features.
 
 - **Tag Generation**: Automatically generate tags with high accuracy.
 
 - **Image Similarity**: Using pre-trained models for feature extraction and cosine similarity to measure the similarity of images
-
+- 
+- **Metadata Extraction**: Extract useful metadata from the image.
+  
 ## Installation
 
 1. (Optional) Creating pip environment
