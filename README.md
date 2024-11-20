@@ -66,7 +66,7 @@ System Information (my computer)
 ## Resources
 - **pre-trained model**: see [Models](https://huggingface.co/quangchi/hivo-pretrained-model/tree/main) to download the model used in the exam.
 
-## Jupyter Notebook Examples
+## Jupyter Notebook Test and  Demo 
 See 
 [Preprocess Image](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_1_Preprocess_Image.ipynb),
 [Face Detection](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_2_Face_Detection.ipynb),
