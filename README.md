@@ -11,6 +11,7 @@
     - [Face Detection](#Face-Detection)
     - [Tag Generation](#Tag-Generation)
     - [Image Similarity](#Image-Similarity)
+    - [Metadata Extraction](#Metadata-Extraction)
   - [Documentations](#documentations)
 
 ## Introduction
@@ -50,11 +51,11 @@ pip install -r requirement_dev.txt
 
 ## Jupyter Notebook Examples
 See 
-[Preprocess Image](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_1_Preprocess_Image.ipynb)
-[Face Detection](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_2_Face_Detection.ipynb)
-[Tag Generation](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_3_Tag_Generation.ipynb)
-[Image Similarity](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_4_Image_Similarity.ipynb)
-[Metadata Extraction](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_5_Metadata_Extraction.ipynb)
+[Preprocess Image](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_1_Preprocess_Image.ipynb),
+[Face Detection](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_2_Face_Detection.ipynb),
+[Tag Generation](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_3_Tag_Generation.ipynb),
+[Image Similarity](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_4_Image_Similarity.ipynb),
+[Metadata Extraction](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_5_Metadata_Extraction.ipynb),
 for more inference examples, Preprocess Image, Face Detection, Tag Generation, Image Similarity, Metadata Extraction.
 
 ## Getting Started
@@ -87,6 +88,26 @@ with open('images/demo/test_image.jpg', 'rb') as f:
     image_data = f.read()
 processed_image = processor.preprocess_image(image_data)
 tags = processor.generate_tags(processed_image)
+```
+
+### Image Similarity
+
+```python
+with open('images/demo/test_image.jpg', 'rb') as f:
+    image_data = f.read()
+processed_image1 = processor.preprocess_image(image_data)
+with open('images/demo/test_image.jpg', 'rb') as f:
+    image_data = f.read()
+processed_image2 = processor.preprocess_image(image_data)
+similarity = processor.calculate_image_similarity(processed_image1, processed_image2)
+```
+### Metadata Extraction
+
+```python
+with open('images/demo/test_image.jpg', 'rb') as f:
+    image_data = f.read()
+metadata = processor.extract_metadata(image_data)
+required_keys = {'dimensions', 'color_space', 'format', 'size_bytes', 'dominant_colors'}
 ```
 
 ## Contact me
