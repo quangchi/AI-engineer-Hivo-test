@@ -37,7 +37,7 @@ Key features of repo include:
 - **Tag Generation**: Automatically generate tags with high accuracy.
 
 - **Image Similarity**: Using pre-trained models for feature extraction and cosine similarity to measure the similarity of images
-- 
+  
 - **Metadata Extraction**: Extract useful metadata from the image.
   
 ## Installation
