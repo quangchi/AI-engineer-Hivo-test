@@ -1,0 +1,1 @@
+from .image2tag import image2tag
