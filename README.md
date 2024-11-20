@@ -20,12 +20,15 @@ This is the Hivo Test Repository, which contains both the source code and the as
 (Preprocess Image, Face Detection, Tag Generation, Image Similarity, Metadata Extraction);
 
 <p align="center">
+  Face Detection
     <br>
     <img src="assets/1.png"/>
     <br>
+  Tag Generation
     <br>
     <img src="assets/3.jpg"/>
     <br>
+  Image Similarity
     <br>
     <img src="assets/2.png"/>
     <br>
