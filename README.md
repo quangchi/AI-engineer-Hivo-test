@@ -12,7 +12,7 @@
     - [Tag Generation](#Tag-Generation)
     - [Image Similarity](#Image-Similarity)
     - [Metadata Extraction](#Metadata-Extraction)
-  - [Documentations](#documentations)
+   
 
 ## Introduction
 This is the Hivo Test Repository, which contains both the source code and the associated test files.
