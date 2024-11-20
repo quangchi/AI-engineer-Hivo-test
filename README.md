@@ -27,7 +27,7 @@ This is the Hivo Test Repository, which contains both the source code and the as
     <img src="assets/3.jpg"/>
     <br>
     <br>
-    <img src="assets/2.jpg"/>
+    <img src="assets/2.png"/>
     <br>
 
 <p>
