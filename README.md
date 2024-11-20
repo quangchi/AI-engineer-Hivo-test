@@ -46,10 +46,16 @@ cd AI-engineer-Hivo-test
 pip install -r requirement_dev.txt
 ```
 ## Resources
-- **pre-trained model**: see [Benchmark](https://opensource.salesforce.com/LAVIS//latest/benchmark) to download the model used in the exam.
+- **pre-trained model**: see [Models](https://huggingface.co/quangchi/hivo-pretrained-model/tree/main) to download the model used in the exam.
 
 ## Jupyter Notebook Examples
-See [examples](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/*.ipynb) for more inference examples, Preprocess Image, Face Detection, Tag Generation, Image Similarity, Metadata Extraction.
+See 
+[Preprocess Image](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_1_Preprocess_Image.ipynb)
+[Face Detection](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_2_Face_Detection.ipynb)
+[Tag Generation](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_3_Tag_Generation.ipynb)
+[Image Similarity](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_4_Image_Similarity.ipynb)
+[Metadata Extraction](https://github.com/quangchi/AI-engineer-Hivo-test/tree/main/Test_5_Metadata_Extraction.ipynb)
+for more inference examples, Preprocess Image, Face Detection, Tag Generation, Image Similarity, Metadata Extraction.
 
 ## Getting Started
 
