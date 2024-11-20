@@ -5,7 +5,7 @@
   - [Introduction](#introduction)
   - [Installation](#installation)
   - [Resources](#resources-and-tools)
-  - [Jupyter Notebook Examples](#jupyter-notebook-examples)
+  - [Jupyter Notebook Test and Demo](#jupyter-notebook-examples)
   - [Getting Started](#getting-started)
     - [Preprocess Image](#Preprocess-Image)
     - [Face Detection](#Face-Detection)
